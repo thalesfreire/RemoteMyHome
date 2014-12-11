@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:weightSum="3">
+
+    
+    <ImageView
+		android:id="@+id/imagemRele"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:src="@drawable/img_switch"
+		android:layout_marginLeft="3dip"
+		android:gravity="center"
+		android:layout_marginTop="10dip"/>
+    
+    <TextView
+		android:id="@+id/descricaoRele"
+		android:padding="10dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize="18sp"
+		android:textColor="#555555"
+		android:textStyle="bold"
+		android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <GridView android:id="@+id/gridLuzesSalaVisitas"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:clickable="true"
+        android:drawSelectorOnTop="false"
+        android:textAlignment="center"
+        android:textFilterEnabled="false"
+        android:stackFromBottom="false"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+        android:layout_weight="1"
+        android:layout_margin="2dp">
+        
+    </GridView>
+    
+</LinearLayout>

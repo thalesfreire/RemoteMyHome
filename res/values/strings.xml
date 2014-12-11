@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote My Home</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="titulo_novo_compartimento">Novo Compartimento</string>
+	<string name="titulo_novo_dispositivo">Novo Dispositivo</string>
+    
+    <!-- Menu tela inicial -->
+    <string name="action_add_compartimento">Adicionar Compartimento</string>
+    <string name="action_settings">Configurações</string>
+    
+    <!-- Menu compartimento -->
+    <string name="action_add_dispositivo">Adicionar Dispositivo</string>
+    <string name="action_excluir_compartimento">Excluir Compartimento</string>
+    
+     <!-- Menu dispositivo -->
+    <string name="action_excluir_dispositivo">Excluir Dispositivo</string>
+    
+    <!-- Spinner TipoCompartimento -->
+    <string name="spn_tipo_compartimento">Tipo de Compartimento</string>
+    
+    <!-- Spinner Entrda Luz -->
+    <string name="spn_entrada_luz"></string>
+    
+     <!-- Spinner TipoDispositivo -->
+    <string name="spn_tipo_dispositivo">Tipo de Dispositivo</string>
+   
+    
+    
+</resources>

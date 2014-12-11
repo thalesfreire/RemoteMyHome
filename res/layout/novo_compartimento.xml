@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <ImageView
+		android:id="@+id/addCompartimentoImg"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/add_comp"
+		android:gravity="center"
+		android:layout_marginTop="25dip"
+		android:layout_marginBottom="25dip"/>
+    
+    <TextView 
+        android:text="Preencha os campos abaixo informando o nome do compartimento e tipo." 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:layout_marginBottom="20dip"
+        android:textSize="14sp"
+		android:textColor="#555555"
+		android:textAlignment="center"
+		android:gravity="center"/>
+    
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="0dip"
+        android:padding="15dip"
+        android:textSize="18sp"
+		android:textColor="#555555" 
+		android:hint="Nome do compartimento" 
+		android:id="@+id/txtNomeCompartimento"/> 
+		
+   	<Spinner
+        android:id="@+id/txtTipoCompartimento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:hint="@string/spn_tipo_compartimento"
+        android:textSize="18sp"/>
+  
+   	
+   	<Button
+        android:id="@+id/btnSalvarNovoCompartimento"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:padding="10dip"
+        android:text="Salvar" />
+   	
+    
+    
+</LinearLayout>

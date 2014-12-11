@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.remotemyhome.MainActivity" >
+<!-- 
+    <item
+        android:id="@+id/action_add_luminaria"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/action_add_dispositivo"/>
+   -->  
+    <item
+        android:id="@+id/action_add_dispositivo"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="@string/action_add_dispositivo"/>
+    
+    <item
+        android:id="@+id/action_excluir_compartimento"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="@string/action_excluir_compartimento"/>
+
+</menu>
