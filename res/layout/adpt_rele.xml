@@ -6,7 +6,7 @@
 
     
     <ImageView
-		android:id="@+id/imagemRele2"
+		android:id="@+id/imagemRele"
 		android:layout_width="fill_parent"
 		android:layout_height="match_parent"
 		android:src="@drawable/img_switch"
